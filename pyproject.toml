@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python_playground"
+version = "0.1.0"
+description = ""
+authors = ["Quang Phan <vnphanquang@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.5.2"
+pandas = "^1.4.3"
+numpy = "^1.23.1"
+openpyxl = "^3.0.10"
+seaborn = "^0.12.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^22.6.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
